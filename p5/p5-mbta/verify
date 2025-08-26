@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Set the classpath
+CLASSPATH=${PWD}/gson-2.8.9.jar:.
+
+# Run the Verify class
+java -cp "$CLASSPATH" Verify "$@"

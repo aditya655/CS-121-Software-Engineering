@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Set the classpath
+CLASSPATH=${PWD}/hamcrest-2.2.jar:${PWD}/junit-4.13.2.jar:${PWD}/gson-2.8.9.jar:.
+
+# Run the JUnit tests
+java -cp "$CLASSPATH" org.junit.runner.JUnitCore Tests

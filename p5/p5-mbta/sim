@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Set the classpath
+CLASSPATH=${PWD}/gson-2.8.9.jar:.
+
+# Run the Sim class
+java -cp "$CLASSPATH" Sim "$@"
